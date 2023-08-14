@@ -1,2 +1,2 @@
-# stylushpayroll
-payroll system for a private limited company 
+# stylush
+Payroll system for stylush
