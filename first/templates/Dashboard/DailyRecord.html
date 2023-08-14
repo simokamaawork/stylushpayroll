@@ -10,7 +10,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-
+  
   <!-- Favicons -->
   <link href="{% static 'img/favicon.png'   %}" rel="icon">
   <link href="{% static 'img/apple-touch-icon.png'  %}" rel="apple-touch-icon">
@@ -110,10 +110,10 @@
 
             <li class="message-item">
               <a href="{% url 'dailyRecord'  %}">
-
+                
                 <div>
                   <h4>Add Daily Task</h4>
-
+                  
                 </div>
               </a>
             </li>
@@ -123,9 +123,9 @@
 
             <li class="message-item">
               <a href="{% url 'addEmployee'  %}">
-
+                
                 <div>
-                  <h4>Add new Employee</h4>
+                  <h4>Add new Employee</h4>  
                 </div>
               </a>
             </li>
@@ -135,10 +135,10 @@
 
             <li class="message-item">
               <a href="{% url 'generatePayslip'  %}">
-
+                
                 <div>
                   <h4>Generate Payslip</h4>
-
+                  
                 </div>
               </a>
             </li>
@@ -213,7 +213,7 @@
     </nav><!-- End Icons Navigation -->
 
   </header>
-
+  
   <!-- End Header -->
 
   <!---------------------------------------------------------------------------------------------->
@@ -229,7 +229,7 @@
           <span>Dashboard</span>
         </a>
       </li>
-
+      
 <!-- End Dashboard Nav -->
 
 
@@ -323,7 +323,7 @@
             </a>
           </li>
 
-
+          
           <li>
             <a href="{%  url 'employeeAward'   %}">
               <i class="bi bi-circle"></i><span>Employee award</span>
@@ -333,7 +333,7 @@
 
         </ul>
       </li>
-
+      
       <!-- End Forms Nav -->
 <!------------------------------------------------------------------------>
       <!-- ACCOUNTS-->
@@ -370,7 +370,7 @@
               <i class="bi bi-circle"></i><span>Add Department</span>
             </a>
           </li>
-
+         
           <li>
             <a href="{% url 'manageDepartments'    %}">
               <i class="bi bi-circle"></i><span>Manage Departments</span>
@@ -378,7 +378,7 @@
           </li>
         </ul>
       </li>
-
+      
       <!-- End Charts Nav -->
 
 <!------------------------------------------------------------------------------------------->
@@ -425,7 +425,7 @@
 
 
 <!--    ---------------------------------------------------------------------------------    -->
-
+ 
 <main id="main" class="main">
 
   <div class="pagetitle">
@@ -452,20 +452,20 @@
     {% csrf_token %}
     {% bootstrap_form form %}
     <button class="btn btn-primary" type="submit">Submit</button>
-  </form>
+  </form>  
 </div>
 
 <!--  --------------------------------------------------------------------------------------   -->
 
-                                            FOOTER
-
+                                            FOOTER 
+                                          
 
 <!-- ----------------------------------------------------------------------------------------   -->
   <footer id="footer" class="footer">
     <div class="copyright">
       &copy; Copyright <strong><span>stylush payroll system</span></strong>. All Rights Reserved
     </div>
-
+   
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
